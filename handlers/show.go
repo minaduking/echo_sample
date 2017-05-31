@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 	"github.com/labstack/echo"
-	"../models"
+	"github.com/minaduking/echo_sample/models"
 )
 
 func ShowUser(c echo.Context) error{

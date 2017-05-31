@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./handlers"
+	"github.com/minaduking/echo_sample/handlers"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	"net/http"

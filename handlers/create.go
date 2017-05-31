@@ -3,7 +3,7 @@ package handlers
 import (
 	"github.com/labstack/echo"
 	"net/http"
-	"../models"
+	"github.com/minaduking/echo_sample/models"
 )
 
 func CreateUser(c echo.Context) (err error) {
